@@ -1,0 +1,17 @@
+# IPython notebook
+.ipynb_checkpoints
+
+# Cypress
+Projects/user-journeys-tests/ui/node_modules
+
+Projects/user-journeys-tests/ui/cypress/screenshots/
+Projects/user-journeys-tests/ui/cypress/videos/
+Projects/user-journeys-tests/ui/cypress/logs/
+Projects/user-journeys-tests/ui/cypress/results/
+
+Projects/user-journeys-tests/ui/cypress/fixtures/users.json
+
+Projects/user-journeys-tests/db/static/user_journeys.json
+
+.idea/
+__pycache__/

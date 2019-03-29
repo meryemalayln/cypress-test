@@ -1,0 +1,12 @@
+{
+  "chromeWebSecurity": false,
+  "video": false,
+  "pageLoadTimeout": 600000,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

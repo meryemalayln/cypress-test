@@ -1,0 +1,19 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "user journey ui behaviour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy-run": "cypress run --reporter mochawesome",
+    "start": "cypress open"
+  },
+  "author": "holmes",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.5",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "mochawesome-merge": "^1.0.7"
+  }
+}
