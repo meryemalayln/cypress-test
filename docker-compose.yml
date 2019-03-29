@@ -1,0 +1,7 @@
+version: '3'
+services:
+  e2e:
+    image: cypress
+    build: .
+    container_name: cypress-test
+    command: npx cypress run
