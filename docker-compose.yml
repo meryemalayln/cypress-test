@@ -3,6 +3,5 @@ services:
   e2e:
     image: cypress
     build: .
-    ports: 0.0.0.0:10500:8181
     container_name: cypress-test
     command: npx cypress run
