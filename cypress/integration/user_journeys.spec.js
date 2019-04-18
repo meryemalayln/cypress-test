@@ -9,7 +9,7 @@ describe('User journeys', () => {
     //   cy.login(user.username1, user.password1)
     // })
 
-    cy.login(Cypress.env('username_env1'), Cypress.env('password_env1'))
+    cy.login(Cypress.env('username1'), Cypress.env('password1'))
 
     cy.search('brexit')
     cy.get('#divSearchResults .active a').first().invoke('removeAttr', 'target').click()
