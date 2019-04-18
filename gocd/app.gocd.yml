@@ -1,6 +1,6 @@
 #app.gocd.yml
 format_version: 3
-enviroments: 
+environments: 
   cypress:
     pipelines:
       - CypressMonitoring
