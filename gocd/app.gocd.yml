@@ -15,7 +15,7 @@ pipelines:
    - UI:
       jobs:
          Test:
-           elastic_profile_id: "dotnet2.1-go-agent-npm"
+           elastic_profile_id: "cypress"
            tasks:
            - exec:
                working_directory: source
