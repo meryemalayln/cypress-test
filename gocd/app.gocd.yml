@@ -1,5 +1,9 @@
 #app.gocd.yml
 format_version: 2
+enviroments: 
+  cypress:
+    pipelines:
+      - CypressMonitoring
 pipelines:
  CypressMonitoring:
    group: pss
