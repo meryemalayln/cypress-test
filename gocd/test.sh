@@ -14,6 +14,7 @@ echo ${CYPRESS_password1}
 
 npm i
 npm install --save-dev cypress
+npm install xvfb
 $(npm bin)/cypress verify
 npx cypress run
 
