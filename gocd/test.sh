@@ -13,8 +13,9 @@ echo ${CYPRESS_username1}
 echo ${CYPRESS_password1}
 
 npm i
-npm install --save-dev cypress
+
 apt-get install xvfb libgtk2.0-0 libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
+npm install --save-dev cypress
 $(npm bin)/cypress verify
 npx cypress run
 
