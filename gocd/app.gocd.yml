@@ -15,11 +15,11 @@ pipelines:
    - UI:
       jobs:
          Test:
-           elastic_profile_id: "cypress"
+           elastic_profile_id: "dotnet2.1-npm"
            tasks:
            - exec:
                working_directory: source
                run_if: passed
                command: "sh"
-               arguments: ["-c", "docker build -t cypress-test ."]
+               arguments: ["-c", "./gocd/test.sh"]
         

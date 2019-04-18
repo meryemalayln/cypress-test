@@ -12,6 +12,7 @@ echo "osman"
 echo ${CYPRESS_username1}
 echo ${CYPRESS_password1}
 
+npm install --save-dev cypress
 npx cypress run
 
 cd ~
