@@ -16,5 +16,5 @@ pipelines:
            - exec:
                working_directory: source
                run_if: passed
-               command: "ls"
+               command: "npx cypress run"
         
