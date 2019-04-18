@@ -1,0 +1,20 @@
+
+format_version:3
+pipelines:
+ CypressMonitoring:
+   group: pss
+   materials:
+     source:
+       type: configrepo
+       destination: source
+   stages:
+   - UI:
+       jobs:
+         Test:
+           elastic_profile_id: "cypress"
+           tasks:
+           - exec:
+               working_directory: source
+               run_if: passed
+               command: "ls"
+        
