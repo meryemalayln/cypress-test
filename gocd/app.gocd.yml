@@ -1,5 +1,5 @@
 #app.gocd.yml
-format_version: 3
+format_version: 2
 pipelines:
  CypressMonitoring:
    group: pss
@@ -9,7 +9,7 @@ pipelines:
        destination: source
    stages:
    - UI:
-       jobs:
+      jobs:
          Test:
            elastic_profile_id: "cypress"
            tasks:
