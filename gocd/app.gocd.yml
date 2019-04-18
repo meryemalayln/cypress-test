@@ -17,5 +17,5 @@ pipelines:
                working_directory: source
                run_if: passed
                command: "sh"
-               arguments: ["-c", "npx cypress run"]
+               arguments: ["-c", "sh test.sh"]
         
