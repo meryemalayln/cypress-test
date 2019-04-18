@@ -1,5 +1,5 @@
 #app.gocd.yml
-format_version: 2
+format_version: 3
 enviroments: 
   cypress:
     pipelines:
