@@ -16,6 +16,5 @@ pipelines:
            - exec:
                working_directory: source
                run_if: passed
-               command: "sh"
-               arguments: ["-c", "./gocd/test.sh"]
+               command: "./gocd/test.sh"
         
